@@ -18,6 +18,6 @@ class CharacteristicContrie (
     @SerializedName("area") var area: Double? = null,
     @SerializedName("nativeName") var nativeName: String,
     @SerializedName("languages") var languages: ArrayList<LanguagesData> = ArrayList(),
-    @SerializedName("flag") var flags: String? = null
+    @SerializedName("flag") var flag: String? = null
 
 ):Parcelable

@@ -6,5 +6,5 @@ import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 class LanguagesData (
-    @SerializedName("lenguages") var lenguages: ArrayList<LanguagesData> = ArrayList()
+    @SerializedName("lenguages") var idiom: ArrayList<LanguagesNative> = ArrayList()
 ):Parcelable

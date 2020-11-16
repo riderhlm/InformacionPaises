@@ -7,4 +7,6 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 class CountriesData (
 
+    var data: ArrayList<CharacteristicContrie> = ArrayList()
+
 ): Parcelable
